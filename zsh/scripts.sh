@@ -47,3 +47,7 @@ duckduckgo() {
 wikipedia() {
     lynx -vikeys -accept_all_cookies "https://en.wikipedia.org/wiki?search=$@"
 }
+
+scratchpad() {
+    "$DOTFILES/zsh/scratchpad.sh"
+}
